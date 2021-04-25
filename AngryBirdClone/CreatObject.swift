@@ -10,6 +10,9 @@ class Object: GameScene {
         box.position = CGPoint(x: xAxis, y: yAxis)
         box.size = CGSize(width: width, height: height)
         box.zPosition = zAxis
+        box.physicsBody = SKPhysicsBody(rectangleOf: box.size)
+        box.physicsBody?.affectedByGravity = true
+        box.physicsBody?.isDynamic = true
         return box
     }
     
@@ -29,6 +32,10 @@ class Object: GameScene {
         bird.position = CGPoint(x: xAxis, y: yAxis)
         bird.size = CGSize(width: width, height: height)
         bird.zPosition = zAxis
+        bird.physicsBody = SKPhysicsBody(circleOfRadius: height / 2)
+        bird.physicsBody?.affectedByGravity = true
+        bird.physicsBody?.isDynamic = true
+        bird.physicsBody?.mass = 0.3
         return bird
         
     }
