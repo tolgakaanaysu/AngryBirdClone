@@ -41,12 +41,8 @@ class GameScene: SKScene {
         addChild(tree)
         
         
-        
-        
-        
     }
     
-   
     func touchDown(atPoint pos : CGPoint) {
        
     }

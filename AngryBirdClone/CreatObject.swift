@@ -10,12 +10,8 @@ class Object: GameScene {
         box.position = CGPoint(x: xAxis, y: yAxis)
         box.size = CGSize(width: width, height: height)
         box.zPosition = zAxis
-        
         return box
     }
-    
-   
-    
     
     func creatBackground(imageNamed: String, width: CGFloat, height: CGFloat, zAxis: CGFloat) -> SKSpriteNode{
         
@@ -23,10 +19,8 @@ class Object: GameScene {
         background = SKSpriteNode(texture: backgroundTexture)
         background.size = CGSize(width: width, height: height)
         background.zPosition = zAxis
-        
         return background
         
-      
     }
     
     func creatBird(imageName: String, xAxis: CGFloat, yAxis: CGFloat,zAxis: CGFloat, width: CGFloat, height: CGFloat) -> SKSpriteNode {
@@ -36,6 +30,7 @@ class Object: GameScene {
         bird.size = CGSize(width: width, height: height)
         bird.zPosition = zAxis
         return bird
+        
     }
     
     func creatTree(imageName: String, xAxis: CGFloat, yAxis: CGFloat,zAxis: CGFloat, width: CGFloat, height: CGFloat) -> SKSpriteNode {
