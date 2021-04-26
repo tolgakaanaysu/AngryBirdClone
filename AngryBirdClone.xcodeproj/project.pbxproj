@@ -14,7 +14,7 @@
 		786CF28726348E8B0072713C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786CF28626348E8B0072713C /* GameViewController.swift */; };
 		786CF28A26348E8B0072713C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786CF28826348E8B0072713C /* Main.storyboard */; };
 		786CF28C26348E8E0072713C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786CF28B26348E8E0072713C /* Assets.xcassets */; };
-		786CF29B2634C2750072713C /* CreatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786CF29A2634C2750072713C /* CreatObject.swift */; };
+		786CF29B2634C2750072713C /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786CF29A2634C2750072713C /* Object.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		786CF28926348E8B0072713C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		786CF28B26348E8E0072713C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		786CF28D26348E8E0072713C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		786CF29A2634C2750072713C /* CreatObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatObject.swift; sourceTree = "<group>"; };
+		786CF29A2634C2750072713C /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				786CF28426348E8B0072713C /* GameScene.swift */,
 				786CF28626348E8B0072713C /* GameViewController.swift */,
 				786CF28826348E8B0072713C /* Main.storyboard */,
-				786CF29A2634C2750072713C /* CreatObject.swift */,
+				786CF29A2634C2750072713C /* Object.swift */,
 				786CF28B26348E8E0072713C /* Assets.xcassets */,
 				786CF28D26348E8E0072713C /* Info.plist */,
 			);
@@ -146,7 +146,7 @@
 			files = (
 				786CF28526348E8B0072713C /* GameScene.swift in Sources */,
 				786CF28726348E8B0072713C /* GameViewController.swift in Sources */,
-				786CF29B2634C2750072713C /* CreatObject.swift in Sources */,
+				786CF29B2634C2750072713C /* Object.swift in Sources */,
 				786CF27F26348E8B0072713C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
