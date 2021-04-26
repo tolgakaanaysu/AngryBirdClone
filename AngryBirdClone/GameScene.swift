@@ -30,7 +30,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         scoreLabel = Object().creatScoreLabel(labelText: "Score: \(String(score)) ",xAxis: 0, yAxis: frame.height / 3.5)
         addChild(scoreLabel)
         
-        box1 = Object().creatBox(imageName: "box", xAxis: frame.width / 6, yAxis: (frame.height / 2.5) + (frame.height / 15) / 2 ,zAxis: 1, width: frame.width / 18, height: frame.height / 15)
+        box1 = Object().creatBox(imageName: "box", xAxis: frame.width / 6, yAxis: -(frame.height / 2.5) + (frame.height / 15) / 2 ,zAxis: 1, width: frame.width / 18, height: frame.height / 15)
         addChild(box1)
         
         box2 = Object().creatBox(imageName: "box", xAxis: (box1.position.x) + 2 * (box1.size.width), yAxis: box1.position.y,zAxis: 1, width: box1.size.width, height: box1.size.height)
