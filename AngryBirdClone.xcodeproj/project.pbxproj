@@ -63,10 +63,10 @@
 				786CF27E26348E8B0072713C /* AppDelegate.swift */,
 				786CF28026348E8B0072713C /* GameScene.sks */,
 				786CF28226348E8B0072713C /* Actions.sks */,
+				786CF29A2634C2750072713C /* Object.swift */,
 				786CF28426348E8B0072713C /* GameScene.swift */,
 				786CF28626348E8B0072713C /* GameViewController.swift */,
 				786CF28826348E8B0072713C /* Main.storyboard */,
-				786CF29A2634C2750072713C /* Object.swift */,
 				786CF28B26348E8E0072713C /* Assets.xcassets */,
 				786CF28D26348E8E0072713C /* Info.plist */,
 			);
